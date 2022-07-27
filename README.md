@@ -3,7 +3,7 @@ Welcome to Delicious Turkish Cuisine
 JSON Parsing
 
 <p>
-<img src="https://user-images.githubusercontent.com/107529020/181145092-f9eee546-76e3-49eb-8192-63c9f7b63beb.png" height="150" width="150" />
+<img src="https://user-images.githubusercontent.com/107529020/181145092-f9eee546-76e3-49eb-8192-63c9f7b63beb.png" height="150" width="150"/>
 <p>
  Screenshots:
  <p>
