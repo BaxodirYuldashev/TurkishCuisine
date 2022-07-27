@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DAB540E60AB11CE5BEEA49E /* Pods_TurkishKitchen_TurkishKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3CB31AA7FBF9B93D8BB866 /* Pods_TurkishKitchen_TurkishKitchenUITests.framework */; };
+		918B2EFAD450ED0A034EA0F9 /* Pods_TurkishKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5D0DF77886BC7788C94A06 /* Pods_TurkishKitchen.framework */; };
+		B0C7AC5DB4B6B7B6345842DA /* Pods_TurkishKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935EC0042545AEC69743CFF0 /* Pods_TurkishKitchenTests.framework */; };
+		FA3BF7862858088E008A58F4 /* AppearanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3BF7852858088E008A58F4 /* AppearanceController.swift */; };
+		FA84334A2805054700FF4873 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8433492805054700FF4873 /* BasicCell.swift */; };
+		FA84334C280507F900FF4873 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84334B280507F900FF4873 /* Header.swift */; };
+		FA84334F280510ED00FF4873 /* IngredientsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84334E280510ED00FF4873 /* IngredientsController.swift */; };
+		FA8433522805138900FF4873 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8433512805138900FF4873 /* NavigationView.swift */; };
+		FA84F0AB280C7C8C0076C64B /* SelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84F0AA280C7C8C0076C64B /* SelectedCell.swift */; };
+		FA8BF3D72806882600F74BB6 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BF3D62806882600F74BB6 /* ImageCell.swift */; };
+		FA94865E2803E34500C8D093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94865D2803E34500C8D093 /* AppDelegate.swift */; };
+		FA9486602803E34500C8D093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94865F2803E34500C8D093 /* ViewController.swift */; };
+		FA9486632803E34500C8D093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9486612803E34500C8D093 /* Main.storyboard */; };
+		FA9486652803E34700C8D093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9486642803E34700C8D093 /* Assets.xcassets */; };
+		FA9486682803E34700C8D093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9486662803E34700C8D093 /* LaunchScreen.storyboard */; };
+		FA9486732803E34700C8D093 /* TurkishKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9486722803E34700C8D093 /* TurkishKitchenTests.swift */; };
+		FA94867E2803E34700C8D093 /* TurkishKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94867D2803E34700C8D093 /* TurkishKitchenUITests.swift */; };
+		FA94868E2803E45800C8D093 /* turk_cuisine.json in Resources */ = {isa = PBXBuildFile; fileRef = FA94868D2803E45800C8D093 /* turk_cuisine.json */; };
+		FA9486912803E66D00C8D093 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9486902803E66D00C8D093 /* Model.swift */; };
+		FA94AC352807B33D003E4EB0 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA94AC342807B33D003E4EB0 /* PictureCell.swift */; };
+		FA957C3A2857A57000E60A58 /* IngredientListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA957C392857A57000E60A58 /* IngredientListCell.swift */; };
+		FAAD880B280932C800850940 /* SelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD880A280932C800850940 /* SelectedViewController.swift */; };
+		FAD210FD2824D0A6004D61DB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD210FC2824D0A6004D61DB /* CollectionViewController.swift */; };
+		FAD210FF2824D7BB004D61DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD210FE2824D7BB004D61DB /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA94866F2803E34700C8D093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9486522803E34500C8D093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9486592803E34500C8D093;
+			remoteInfo = TurkishKitchen;
+		};
+		FA94867A2803E34700C8D093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9486522803E34500C8D093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9486592803E34500C8D093;
+			remoteInfo = TurkishKitchen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3CB31AA7FBF9B93D8BB866 /* Pods_TurkishKitchen_TurkishKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishKitchen_TurkishKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACFF729F7D037388F5C36A5 /* Pods-TurkishKitchen-TurkishKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchen-TurkishKitchenUITests.release.xcconfig"; path = "Target Support Files/Pods-TurkishKitchen-TurkishKitchenUITests/Pods-TurkishKitchen-TurkishKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		306C3B72E55E7E864548FD25 /* Pods-TurkishKitchen-TurkishKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchen-TurkishKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-TurkishKitchen-TurkishKitchenUITests/Pods-TurkishKitchen-TurkishKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45362995C23E86D1DB35B0C7 /* Pods-TurkishKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-TurkishKitchenTests/Pods-TurkishKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFD07EB93FF9A9D723E52DD /* Pods-TurkishKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchen.debug.xcconfig"; path = "Target Support Files/Pods-TurkishKitchen/Pods-TurkishKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		935EC0042545AEC69743CFF0 /* Pods_TurkishKitchenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishKitchenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FEC93B4963ADEAC55845CF /* Pods-TurkishKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchen.release.xcconfig"; path = "Target Support Files/Pods-TurkishKitchen/Pods-TurkishKitchen.release.xcconfig"; sourceTree = "<group>"; };
+		CC5D0DF77886BC7788C94A06 /* Pods_TurkishKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkishKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C2271F2BD6E3131DC96205 /* Pods-TurkishKitchenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurkishKitchenTests.release.xcconfig"; path = "Target Support Files/Pods-TurkishKitchenTests/Pods-TurkishKitchenTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3BF7852858088E008A58F4 /* AppearanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceController.swift; sourceTree = "<group>"; };
+		FA8433492805054700FF4873 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		FA84334B280507F900FF4873 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		FA84334E280510ED00FF4873 /* IngredientsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsController.swift; sourceTree = "<group>"; };
+		FA8433512805138900FF4873 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		FA84F0AA280C7C8C0076C64B /* SelectedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCell.swift; sourceTree = "<group>"; };
+		FA8BF3D62806882600F74BB6 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		FA94865A2803E34500C8D093 /* TurkishKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkishKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA94865D2803E34500C8D093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA94865F2803E34500C8D093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA9486622803E34500C8D093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9486642803E34700C8D093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9486672803E34700C8D093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9486692803E34700C8D093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA94866E2803E34700C8D093 /* TurkishKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkishKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9486722803E34700C8D093 /* TurkishKitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkishKitchenTests.swift; sourceTree = "<group>"; };
+		FA9486742803E34700C8D093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9486792803E34700C8D093 /* TurkishKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurkishKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA94867D2803E34700C8D093 /* TurkishKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkishKitchenUITests.swift; sourceTree = "<group>"; };
+		FA94867F2803E34700C8D093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA94868D2803E45800C8D093 /* turk_cuisine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = turk_cuisine.json; sourceTree = "<group>"; };
+		FA9486902803E66D00C8D093 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA94AC342807B33D003E4EB0 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		FA957C392857A57000E60A58 /* IngredientListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListCell.swift; sourceTree = "<group>"; };
+		FAAD880A280932C800850940 /* SelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedViewController.swift; sourceTree = "<group>"; };
+		FAD210FC2824D0A6004D61DB /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		FAD210FE2824D7BB004D61DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9486572803E34500C8D093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918B2EFAD450ED0A034EA0F9 /* Pods_TurkishKitchen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA94866B2803E34700C8D093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C7AC5DB4B6B7B6345842DA /* Pods_TurkishKitchenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9486762803E34700C8D093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DAB540E60AB11CE5BEEA49E /* Pods_TurkishKitchen_TurkishKitchenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992BDD188695AEFD41BBAB58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC5D0DF77886BC7788C94A06 /* Pods_TurkishKitchen.framework */,
+				0D3CB31AA7FBF9B93D8BB866 /* Pods_TurkishKitchen_TurkishKitchenUITests.framework */,
+				935EC0042545AEC69743CFF0 /* Pods_TurkishKitchenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB15C2775AD8F1E811456395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFD07EB93FF9A9D723E52DD /* Pods-TurkishKitchen.debug.xcconfig */,
+				B4FEC93B4963ADEAC55845CF /* Pods-TurkishKitchen.release.xcconfig */,
+				306C3B72E55E7E864548FD25 /* Pods-TurkishKitchen-TurkishKitchenUITests.debug.xcconfig */,
+				2ACFF729F7D037388F5C36A5 /* Pods-TurkishKitchen-TurkishKitchenUITests.release.xcconfig */,
+				45362995C23E86D1DB35B0C7 /* Pods-TurkishKitchenTests.debug.xcconfig */,
+				E1C2271F2BD6E3131DC96205 /* Pods-TurkishKitchenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA8433482805052E00FF4873 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA8433492805054700FF4873 /* BasicCell.swift */,
+				FA84334B280507F900FF4873 /* Header.swift */,
+				FA8BF3D62806882600F74BB6 /* ImageCell.swift */,
+				FA94AC342807B33D003E4EB0 /* PictureCell.swift */,
+				FA84F0AA280C7C8C0076C64B /* SelectedCell.swift */,
+				FAD210FE2824D7BB004D61DB /* CollectionViewCell.swift */,
+				FA957C392857A57000E60A58 /* IngredientListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA84334D280510CB00FF4873 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA94865F2803E34500C8D093 /* ViewController.swift */,
+				FA84334E280510ED00FF4873 /* IngredientsController.swift */,
+				FAAD880A280932C800850940 /* SelectedViewController.swift */,
+				FAD210FC2824D0A6004D61DB /* CollectionViewController.swift */,
+				FA3BF7852858088E008A58F4 /* AppearanceController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FA8433502805136A00FF4873 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				FA8433512805138900FF4873 /* NavigationView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		FA9486512803E34500C8D093 = {
+			isa = PBXGroup;
+			children = (
+				FA94865C2803E34500C8D093 /* TurkishKitchen */,
+				FA9486712803E34700C8D093 /* TurkishKitchenTests */,
+				FA94867C2803E34700C8D093 /* TurkishKitchenUITests */,
+				FA94865B2803E34500C8D093 /* Products */,
+				CB15C2775AD8F1E811456395 /* Pods */,
+				992BDD188695AEFD41BBAB58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA94865B2803E34500C8D093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA94865A2803E34500C8D093 /* TurkishKitchen.app */,
+				FA94866E2803E34700C8D093 /* TurkishKitchenTests.xctest */,
+				FA9486792803E34700C8D093 /* TurkishKitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA94865C2803E34500C8D093 /* TurkishKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				FA8433502805136A00FF4873 /* NavigationView */,
+				FA84334D280510CB00FF4873 /* Controllers */,
+				FA8433482805052E00FF4873 /* Cells */,
+				FA94868F2803E65A00C8D093 /* Model */,
+				FA94868C2803E3F600C8D093 /* JSONFiles */,
+				FA94865D2803E34500C8D093 /* AppDelegate.swift */,
+				FA9486612803E34500C8D093 /* Main.storyboard */,
+				FA9486642803E34700C8D093 /* Assets.xcassets */,
+				FA9486662803E34700C8D093 /* LaunchScreen.storyboard */,
+				FA9486692803E34700C8D093 /* Info.plist */,
+			);
+			path = TurkishKitchen;
+			sourceTree = "<group>";
+		};
+		FA9486712803E34700C8D093 /* TurkishKitchenTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA9486722803E34700C8D093 /* TurkishKitchenTests.swift */,
+				FA9486742803E34700C8D093 /* Info.plist */,
+			);
+			path = TurkishKitchenTests;
+			sourceTree = "<group>";
+		};
+		FA94867C2803E34700C8D093 /* TurkishKitchenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA94867D2803E34700C8D093 /* TurkishKitchenUITests.swift */,
+				FA94867F2803E34700C8D093 /* Info.plist */,
+			);
+			path = TurkishKitchenUITests;
+			sourceTree = "<group>";
+		};
+		FA94868C2803E3F600C8D093 /* JSONFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FA94868D2803E45800C8D093 /* turk_cuisine.json */,
+			);
+			path = JSONFiles;
+			sourceTree = "<group>";
+		};
+		FA94868F2803E65A00C8D093 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA9486902803E66D00C8D093 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9486592803E34500C8D093 /* TurkishKitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9486822803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchen" */;
+			buildPhases = (
+				5837F40E1C825309F063766F /* [CP] Check Pods Manifest.lock */,
+				FA9486562803E34500C8D093 /* Sources */,
+				FA9486572803E34500C8D093 /* Frameworks */,
+				FA9486582803E34500C8D093 /* Resources */,
+				1C2852DEA3D29D449DAD0C5E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkishKitchen;
+			productName = TurkishKitchen;
+			productReference = FA94865A2803E34500C8D093 /* TurkishKitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA94866D2803E34700C8D093 /* TurkishKitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9486852803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchenTests" */;
+			buildPhases = (
+				29A204F7D39F5C93508770E9 /* [CP] Check Pods Manifest.lock */,
+				FA94866A2803E34700C8D093 /* Sources */,
+				FA94866B2803E34700C8D093 /* Frameworks */,
+				FA94866C2803E34700C8D093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA9486702803E34700C8D093 /* PBXTargetDependency */,
+			);
+			name = TurkishKitchenTests;
+			productName = TurkishKitchenTests;
+			productReference = FA94866E2803E34700C8D093 /* TurkishKitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA9486782803E34700C8D093 /* TurkishKitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9486882803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchenUITests" */;
+			buildPhases = (
+				6A3A4B7FF6E11788A58CE369 /* [CP] Check Pods Manifest.lock */,
+				FA9486752803E34700C8D093 /* Sources */,
+				FA9486762803E34700C8D093 /* Frameworks */,
+				FA9486772803E34700C8D093 /* Resources */,
+				60435663301F79B85948199D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA94867B2803E34700C8D093 /* PBXTargetDependency */,
+			);
+			name = TurkishKitchenUITests;
+			productName = TurkishKitchenUITests;
+			productReference = FA9486792803E34700C8D093 /* TurkishKitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9486522803E34500C8D093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					FA9486592803E34500C8D093 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					FA94866D2803E34700C8D093 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FA9486592803E34500C8D093;
+					};
+					FA9486782803E34700C8D093 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = FA9486592803E34500C8D093;
+					};
+				};
+			};
+			buildConfigurationList = FA9486552803E34500C8D093 /* Build configuration list for PBXProject "TurkishKitchen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9486512803E34500C8D093;
+			productRefGroup = FA94865B2803E34500C8D093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9486592803E34500C8D093 /* TurkishKitchen */,
+				FA94866D2803E34700C8D093 /* TurkishKitchenTests */,
+				FA9486782803E34700C8D093 /* TurkishKitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9486582803E34500C8D093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9486682803E34700C8D093 /* LaunchScreen.storyboard in Resources */,
+				FA9486652803E34700C8D093 /* Assets.xcassets in Resources */,
+				FA94868E2803E45800C8D093 /* turk_cuisine.json in Resources */,
+				FA9486632803E34500C8D093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA94866C2803E34700C8D093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9486772803E34700C8D093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2852DEA3D29D449DAD0C5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen/Pods-TurkishKitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen/Pods-TurkishKitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen/Pods-TurkishKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29A204F7D39F5C93508770E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishKitchenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5837F40E1C825309F063766F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishKitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60435663301F79B85948199D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen-TurkishKitchenUITests/Pods-TurkishKitchen-TurkishKitchenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen-TurkishKitchenUITests/Pods-TurkishKitchen-TurkishKitchenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TurkishKitchen-TurkishKitchenUITests/Pods-TurkishKitchen-TurkishKitchenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3A4B7FF6E11788A58CE369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurkishKitchen-TurkishKitchenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9486562803E34500C8D093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA84F0AB280C7C8C0076C64B /* SelectedCell.swift in Sources */,
+				FA8433522805138900FF4873 /* NavigationView.swift in Sources */,
+				FA84334C280507F900FF4873 /* Header.swift in Sources */,
+				FA84334A2805054700FF4873 /* BasicCell.swift in Sources */,
+				FA3BF7862858088E008A58F4 /* AppearanceController.swift in Sources */,
+				FA957C3A2857A57000E60A58 /* IngredientListCell.swift in Sources */,
+				FA84334F280510ED00FF4873 /* IngredientsController.swift in Sources */,
+				FA9486912803E66D00C8D093 /* Model.swift in Sources */,
+				FAD210FD2824D0A6004D61DB /* CollectionViewController.swift in Sources */,
+				FA94AC352807B33D003E4EB0 /* PictureCell.swift in Sources */,
+				FAD210FF2824D7BB004D61DB /* CollectionViewCell.swift in Sources */,
+				FA8BF3D72806882600F74BB6 /* ImageCell.swift in Sources */,
+				FAAD880B280932C800850940 /* SelectedViewController.swift in Sources */,
+				FA9486602803E34500C8D093 /* ViewController.swift in Sources */,
+				FA94865E2803E34500C8D093 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA94866A2803E34700C8D093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9486732803E34700C8D093 /* TurkishKitchenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA9486752803E34700C8D093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA94867E2803E34700C8D093 /* TurkishKitchenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA9486702803E34700C8D093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9486592803E34500C8D093 /* TurkishKitchen */;
+			targetProxy = FA94866F2803E34700C8D093 /* PBXContainerItemProxy */;
+		};
+		FA94867B2803E34700C8D093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9486592803E34500C8D093 /* TurkishKitchen */;
+			targetProxy = FA94867A2803E34700C8D093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA9486612803E34500C8D093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9486622803E34500C8D093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9486662803E34700C8D093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9486672803E34700C8D093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9486802803E34700C8D093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9486812803E34700C8D093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9486832803E34700C8D093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFD07EB93FF9A9D723E52DD /* Pods-TurkishKitchen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9486842803E34700C8D093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FEC93B4963ADEAC55845CF /* Pods-TurkishKitchen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA9486862803E34700C8D093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45362995C23E86D1DB35B0C7 /* Pods-TurkishKitchenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurkishKitchen.app/TurkishKitchen";
+			};
+			name = Debug;
+		};
+		FA9486872803E34700C8D093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C2271F2BD6E3131DC96205 /* Pods-TurkishKitchenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TurkishKitchen.app/TurkishKitchen";
+			};
+			name = Release;
+		};
+		FA9486892803E34700C8D093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306C3B72E55E7E864548FD25 /* Pods-TurkishKitchen-TurkishKitchenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurkishKitchen;
+			};
+			name = Debug;
+		};
+		FA94868A2803E34700C8D093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACFF729F7D037388F5C36A5 /* Pods-TurkishKitchen-TurkishKitchenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TurkishKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baxodir.projects.TurkishKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TurkishKitchen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9486552803E34500C8D093 /* Build configuration list for PBXProject "TurkishKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9486802803E34700C8D093 /* Debug */,
+				FA9486812803E34700C8D093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9486822803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9486832803E34700C8D093 /* Debug */,
+				FA9486842803E34700C8D093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9486852803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9486862803E34700C8D093 /* Debug */,
+				FA9486872803E34700C8D093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9486882803E34700C8D093 /* Build configuration list for PBXNativeTarget "TurkishKitchenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9486892803E34700C8D093 /* Debug */,
+				FA94868A2803E34700C8D093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9486522803E34500C8D093 /* Project object */;
+}

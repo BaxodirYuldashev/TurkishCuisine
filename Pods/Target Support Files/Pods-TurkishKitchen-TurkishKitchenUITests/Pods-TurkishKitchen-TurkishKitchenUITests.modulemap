@@ -1,0 +1,6 @@
+framework module Pods_TurkishKitchen_TurkishKitchenUITests {
+  umbrella header "Pods-TurkishKitchen-TurkishKitchenUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
